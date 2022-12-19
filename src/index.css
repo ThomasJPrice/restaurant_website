@@ -50,3 +50,19 @@ a {
             transform: translateY(0);
   }
 }
+
+/*width*/
+::-webkit-scrollbar {
+  width:10px;
+}
+
+/*track*/
+::-webkit-scrollbar-track {
+  background:rgb(12, 12, 12);
+}
+
+/*thumb*/
+::-webkit-scrollbar-thumb {
+  background:rgb(220, 202, 135);
+  box-shadow:rgb(0, 0, 0) 0px -1px;
+}
